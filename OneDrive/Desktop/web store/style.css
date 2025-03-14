@@ -1,0 +1,798 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.majm {
+    width: 90%;
+    height: 50px;
+    background-color: rgba(164, 192, 199,0.4);
+    border-radius: 100px;
+    margin-top: 20px;
+   margin-left: 5%;
+  position: relative;
+   transition: 0.6s;
+
+
+
+    
+}
+.majm.active {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(118, 183, 199);
+    border-radius: 100px;
+    margin-top: 20px;
+   margin-left: 5%;
+  position: relative;
+   transition: 0.6s;
+
+
+
+    
+}
+.text4{
+    padding-left: 60px;
+    display: 0px;
+    height:20px ;
+    padding-top: 4px;
+    width: 250px;
+    padding: 0px;
+}
+
+
+.ghh{
+    width: 100;
+    
+   
+}
+body{
+    background-color: rgb(15, 41, 47);
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+body.active{
+    background-color: aliceblue;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+}
+.ex{
+    height: 1000px;
+}
+.rk{
+    padding-left: 6%;
+   padding-top: 10px;
+    color: azure;
+  
+    font-size: 170%;
+    font-style: normal;
+    
+    
+}
+#sc{
+   
+    width: 40px;
+     float: right; 
+     
+     position: absolute;
+     left: 60%;
+     bottom: 5%;
+     font-size: 180%;
+     color: azure;
+
+   
+}
+#sc.activ{
+   
+    width: 40px;
+     float: right; 
+     
+     position: absolute;
+     left: 60%;
+     bottom: 5%;
+     font-size: 180%;
+     color: azure;
+     
+
+   
+}
+.abo{
+    position: absolute;
+    left: 70%;
+    bottom: 10%;
+    font-size: 200%;
+    transition: 0.2s;
+}
+.abo.activ{
+    position: absolute;
+    left: 70%;
+    bottom: 10%;
+    opacity: 0;
+    
+    
+}
+.emai{
+    position: absolute;
+    left: 80%;
+    bottom: 3%;
+
+
+color: azure;
+    font-size: 230%;
+    transition: 0.25s;
+}
+.emai.activ{
+    position: absolute;
+    left: 80%;
+    bottom: 3%;
+
+
+color: azure;
+    font-size: 230%;
+    opacity: 0;
+   
+}
+
+
+
+
+
+
+
+.abo:hover{
+   
+    height: 50px;
+   
+    border-radius: 100px;
+    padding-left: 0%;
+    float: left;
+ 
+  
+  
+
+
+}
+.emai:hover{
+    
+    height: 50px;
+   
+    border-radius: 100px;
+    padding-left: 0%;
+    float: left;
+   
+  
+  
+
+
+}
+.img{
+    padding-top: 40px;
+    padding-left: 10px;
+    height: 350px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+   
+   
+}
+.im1{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+  animation: whatsapp 30s linear;
+  animation-iteration-count: infinite;
+
+
+}
+.im2{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+
+
+
+}
+.im3{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+  
+  
+
+
+}
+.im4{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+  
+
+
+
+}
+.im5{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+
+
+
+
+}
+.im6{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+ 
+ 
+
+
+}
+.im7{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+  
+ 
+
+
+}
+.im8{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+  
+ 
+
+
+}
+.im9{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+  
+ 
+
+
+}
+.im10{
+    border-radius: 30px;
+    height: 300px;
+  
+  margin-left: 20px;
+  
+ 
+
+
+}
+.imm{
+    border-radius: 30px;
+        height: 300px;
+        transition: 0.5s;
+}
+.imm:hover{
+    height: 320px;
+    transition: 0.5s;
+   
+   }
+
+
+
+
+@keyframes whatsapp {
+    from{
+        margin-left: 20px;
+    }
+    to{
+        margin-left: -3910px;
+    }
+
+}
+
+
+.fmwa{padding-left: 40px;
+    position: relative;
+    overflow-x: hidden;
+    
+    height: 240px;
+  
+    
+   
+    
+}
+
+.imgm{
+    border-radius: 20px;
+    height: 150px;
+    width: 300px;
+   margin-right: 40px;
+  
+  
+    
+}
+
+
+.logo{
+    border-radius: 25%;
+    height: 50px;
+    width: 50px ;
+    margin-top: 10px;
+    float: left;
+  
+    
+
+}
+.text1{
+    padding-left: 60px;
+    
+    height:20px ;
+    padding-top: 5px;
+    width: 250px;
+}
+
+
+
+.logo2{
+    border-radius: 25%;
+    height: 50px;
+    width: 50px ;
+    margin-top: 10px;
+    float: left;
+    margin-left: 29px;
+    margin-top: 40px;
+
+    
+    
+
+}
+.loogoo2{
+    margin-top: -30px;
+    margin-left: 64px;
+
+}
+.text2{
+    
+    margin-left: 90px;
+    margin-top: 40px;
+    width: 250px;
+}
+.text5{
+        
+    margin-left: 90px;
+    margin-top: 40px;
+    width: 250px;
+    padding-top: 5px;
+}
+.loogoo3{
+    margin-top: -30px;
+
+}
+.loogoo4{
+    margin-top: -30px;
+    margin-left: px;
+
+}
+.logo3{
+    border-radius: 25%;
+    height: 50px;
+    width: 50px ;
+    margin-top: 10px;
+    float: left;
+    margin-left: 31px;
+    margin-top: 41px;
+
+    
+    
+
+}
+.text3{
+    margin-left: 90px;
+    margin-top: 42px;
+    width: 250px;
+
+}
+.pp{
+    padding-top: 5px ;
+}
+.pp3{
+    padding-top: 5px ;
+}
+.p2{
+    padding-top: 5px ;
+    width: 250px;
+}
+
+h3{font: none;
+   
+}
+
+
+ 
+
+
+.fmwa::-webkit-scrollbar{
+    display: none;
+}
+html{
+    scrollbar-width: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width : 600px){
+    .rk{
+        padding-left: 6%;
+        margin-top: 20px;
+        padding-top: 15px;
+        color: azure;
+        text-decoration: none;
+        font-size: 100%;
+        font-style: normal;
+        position: relative;
+        font-weight: bolder;
+    }
+    .rk{
+        padding-left: 6%;
+        margin-top: 20px;
+        padding-top: 15px;
+        color: azure;
+        text-decoration: none;
+        font-size: 100%;
+        font-style: normal;
+        position: relative;
+        font-weight: bolder;
+        transition: 0.5s;
+    }
+    .rk.activ{
+        padding-left: 6%;
+        margin-top: 20px;
+        padding-top: 15px;
+        color: azure;
+        text-decoration: none;
+        font-size: 100%;
+        font-style: normal;
+        position: relative;
+        font-weight: bolder;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    #sc{
+       
+        width: 40px;
+         float: right; 
+        
+         position: absolute;
+         left: 66%;
+         bottom: 13%;
+         font-size: 100%;
+         color: azure;
+    
+       
+    }
+    
+    body{
+        overflow-x: hidden;
+        -ms-overflow-style: none;
+    }
+    .abo{
+        position: absolute;
+        left: 54%;
+        bottom: 25%;
+        font-size: 110%;
+    }
+    .emai{
+        position: absolute;
+        left: 76%;
+        bottom: 25%;
+    
+    
+    color: azure;
+        font-size: 120%;
+    }
+
+
+    .sc:hover{
+  
+        height: 30px;
+       
+        border-radius: 100px;
+        padding-left: 0%;
+        float: left;
+        
+      
+      
+    
+    
+    }
+    .abo:hover{
+       
+        height: 30px;
+       
+        border-radius: 100px;
+        padding-left: 0%;
+        float: left;
+     
+      
+      
+    
+    
+    }
+    .emai:hover{
+        
+        height: 30px;
+       
+        border-radius: 100px;
+        padding-left: 0%;
+        float: left;
+       
+      
+      
+    
+    
+    }
+    .img{
+        padding-top: 20px;
+        padding-left: 5px;
+        height: 220px;
+        width: 100%;
+        overflow-x: scroll;
+        
+        display: flex;
+       
+       
+    }
+  
+    .img::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .imm{
+        height: 200px;
+    }
+    .imm:hover{
+        height: 210px;
+    }
+
+    .im1{
+        border-radius: 30px;
+        height: 300px;
+      
+      margin-left: 20px;
+      animation: whatsapp 28s linear;
+      animation-iteration-count: infinite;
+    
+    
+    }
+    @keyframes whatsapp {
+        from{
+            margin-left: 20px;
+        }
+        to{
+            margin-left: -2650px;
+        }
+    
+    }
+    .fmwa{padding-left: 20px;
+        position: relative;
+        overflow: scroll;
+        
+        height: 240px;
+        
+
+        overflow-x: scroll;
+        animation: screen 1s linear;
+        
+       
+        
+    }
+    
+    .imgm{
+        border-radius: 20px;
+        height: 130px;
+        width: 250px;
+       margin-right: 40px;
+       margin-left: 0px;
+      
+        
+    }
+    .whas{
+        color: azure;
+        font-size: 30px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+    
+    }
+    .logo{
+        border-radius: 25%;
+        height: 50px;
+        width: 50px ;
+        margin-top: 10px;
+        float: left;
+      
+        
+    
+    }
+    
+    .text1{
+        padding-left: 60px;
+        display: 0px;
+        height:20px ;
+        
+        width: 250px;
+        padding-top: 0px;
+    }
+    
+    
+    
+    .logo2{
+        border-radius: 25%;
+        height: 50px;
+        width: 50px ;
+        margin-top: 10px;
+        float: left;
+        margin-left: -17px;
+        margin-top: 40px;
+    
+        
+        
+    
+    }
+    .loogoo2{
+        margin-top: -30px;
+        
+    
+    }
+    .text2{
+        
+        margin-left: 45px;
+        margin-top: 40px;
+        width: 180px;
+    }
+    .loogoo3{
+        margin-top: -30px;
+    
+    }
+    .logo3{
+        border-radius: 25%;
+        height: 50px;
+        width: 50px ;
+        margin-top: 0px;
+        float: left;
+        margin-left: 42px;
+        
+    
+        
+        
+    
+    }
+    .text3{
+        margin-left: 103px;
+        margin-top: 42px;
+        width: 180px;
+    }
+    .text4{
+        padding-left: 60px;
+        display: 0px;
+        height:20px ;
+        padding-top: 0%;
+        width: 250px;
+    }
+    .text5{
+        margin-left:45px;
+        margin-top: 40px;
+        width: 180px;
+
+    }
+    .pp{
+        padding-top: 0px ;
+       width: 180px;
+    }
+    .pp3{
+        padding-top: 0px ;
+       width: 190px;
+       margin-left: 60px;
+       margin-top: -30px;
+    }
+    .whass{
+        color: azure;
+        font-size: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        
+    
+    }
+    .loogoo{
+        width:0px;
+    }
+
+
+
+
+@keyframes screen {
+    0%{ 
+        overflow-x: hidden;
+
+    }
+    100%{
+        overflow-x: scroll;
+    }
+    
+}
+a{
+    text-decoration: none;
+    padding: 0%;
+    margin: 0%;
+}
+.fmwa::-webkit-scrollbar{
+    display: none;
+}
+.loogoo4{
+    margin-top: -30px;
+    margin-left: 2px;
+
+}
+.p2{
+    width: 180px;
+}
+
+
+/* here is for mdgam */
+
+.lgg1{ padding: 0;
+
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width :900px) and (min-width: 600px)
+    
+{
+
+    
+}
