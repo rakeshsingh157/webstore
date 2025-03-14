@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video id="myVideo" width="640" height="360" controls>
+        <source src="03.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        let video = document.getElementById("myVideo");
+    
+        // Try playing the video directly
+        let playPromise = video.play();
+    
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              console.log("✅ Video autoplayed successfully!");
+            })
+            .catch(() => {
+              console.log("❌ Autoplay blocked! Forcing autoplay...");
+    
+              // Workaround: Play video after a silent interaction
+              document.addEventListener("click", function playVideo() {
+                video.play();
+                document.removeEventListener("click", playVideo);
+              });
+            });
+        }
+      });
+    </script>
+    
+
+</body>
+</html>
